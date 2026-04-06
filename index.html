@@ -8,8 +8,14 @@
         h1 { color: #d63384; border-bottom: 4px solid #d63384; padding-bottom: 15px; text-align: center; }
         h2 { color: #882255; margin-top: 40px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         .group-info { background: #fff1f5; padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px 0; }
-        .gallery img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s; }
+        .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 30px 0; }
+        .gallery img { 
+            width: 100%; height: 250px; 
+            object-fit: cover; 
+            border-radius: 12px; 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
+            transition: transform 0.3s; 
+        }
         .gallery img:hover { transform: scale(1.03); }
         table { width: 100%; border-collapse: collapse; margin: 20px 0; }
         th, td { padding: 15px; border: 1px solid #ddd; text-align: left; }
@@ -26,21 +32,19 @@
     </div>
 
     <h2>笠園有機農園 - 特色餐點概覽</h2>
-    <p>笠園以有機農耕與新鮮食材聞名，園區氛圍親切自然，是結合環境教育與美味佳餚的最佳選擇，非常適合同樂。</p>
     <div class="gallery">
         <img src="liyuan1.jpg" alt="笠園農園看板">
         <img src="liyuan2.jpg" alt="有機餐點">
     </div>
 
     <h2>鯉魚潭水庫觀景台 - 壯麗風光</h2>
-    <p>這裡是苗栗重要的地標，湖光山色倒映在水面，開闊的視野讓大家族在合影時，能完整記錄下壯麗的水庫景致。</p>
     <div class="gallery">
         <img src="liyutan1.jpg" alt="鯉魚潭水庫風景">
         <img src="liyutan2.jpg" alt="鯉魚潭地標">
+        <img src="liyutan3.jpg" alt="鯉魚潭涼亭景觀">
     </div>
 
     <h2>花露農場 - 夢幻花卉與休閒</h2>
-    <p>擁有千變萬化的花卉造景與休閒空間，四季花種盛開，能讓所有家族成員在這裡漫步，享受放鬆心情的夢幻花園時光。</p>
     <div class="gallery">
         <img src="flower1.jpg" alt="花露農場花卉1">
         <img src="flower2.jpg" alt="花露農場花卉2">
@@ -61,6 +65,7 @@
     <div class="tips">
         <h2>大型團體貼心提醒</h2>
         <ul>
+            <li><strong>團體交通</strong>：23 人屬大型團體，建議分車時指定領頭車，確保動線一致。</li>
             <li><strong>彈性空間</strong>：花露農場午後活動節奏較緩，建議長輩若體力消耗過快，可優先前往園區內的景觀咖啡區歇息。</li>
             <li><strong>預約確認</strong>：針對午餐需求，強烈建議提早致電確認桌次安排。</li>
         </ul>
